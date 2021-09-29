@@ -27,17 +27,17 @@ const Blog = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
-      <Seo title="Blog" />
+      <Seo title="Записи" />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
         <Heading as="h1" variant="styles.h1" sx={{ marginY: 2 }}>
-          Blog
+          Записи
         </Heading>
         <TLink
           as={Link}
           sx={{ variant: `links.secondary`, marginY: 2 }}
           to={replaceSlashes(`/${basePath}/${tagsPath}`)}
         >
-          View all tags
+          Посмотреть все теги
         </TLink>
       </Flex>
       <Listing posts={posts} sx={{ mt: [4, 5] }} />

@@ -19,9 +19,9 @@ const Tags = ({ list }: PostsProps) => {
 
   return (
     <Layout>
-      <Seo title="Tags" />
+      <Seo title="Теги" />
       <Heading as="h1" variant="styles.h1">
-        Tags
+        Теги
       </Heading>
       <Box mt={[4, 5]}>
         {list.map((listItem) => (
