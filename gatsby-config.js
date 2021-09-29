@@ -13,7 +13,8 @@ module.exports = {
     siteHeadline: `Павел Бородин`,
     siteDescription: `Павел Бородин. Разрабатываю клиентские и корпоративные решения для B2B рынка. Проектирую интерфейсы, работаю с командой разработки, рекламы и SMM. Запускал проекты в партнерстве с пятью крупными компаниями России и мира.`,
     siteLanguage: `ru`,
-    siteImage: `/banner.jpg`
+    siteImage: `/banner.jpg`,
+    siteUrl: `https://pavelborodinru.gatsbyjs.io`,
   },
   plugins: [
     {
