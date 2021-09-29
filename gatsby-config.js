@@ -8,7 +8,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Павел Бородин`,
   },
   plugins: [
     {
@@ -17,22 +17,22 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `Блог`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `Обо мне`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Telegram`,
+            url: `https://t.me/pavelborodin/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Instagram`,
+            url: `https://instagram.com/pavelborodin_ru`,
           },
         ],
       },
@@ -64,9 +64,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Павел Бородин`,
+        short_name: `pavelborodin`,
+        description: `Разрабатываю клиентские и корпоративные решения для B2B рынка. Проектирую интерфейсы, работаю с командой разработки, рекламы и SMM. Запускал проекты в партнерстве с пятью крупными компаниями России и мира.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
@@ -132,7 +132,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Павел Бородин`,
           },
         ],
       },
