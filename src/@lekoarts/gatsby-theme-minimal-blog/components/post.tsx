@@ -56,7 +56,7 @@ const Post = ({ data: { post } }: PostProps) => (
         </React.Fragment>
       )}
       {post.timeToRead && ` — `}
-      {post.timeToRead && <span>{post.timeToRead} минут на чтение</span>}
+      {post.timeToRead && <span>{post.timeToRead} мин. на чтение</span>}
     </p>
     <section
       sx={{
