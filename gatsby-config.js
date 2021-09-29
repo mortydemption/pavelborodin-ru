@@ -8,7 +8,12 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
+    siteTitle: `Павел Бородин`,
     siteTitleAlt: `Павел Бородин`,
+    siteHeadline: `Павел Бородин`,
+    siteDescription: `Павел Бородин. Разрабатываю клиентские и корпоративные решения для B2B рынка. Проектирую интерфейсы, работаю с командой разработки, рекламы и SMM. Запускал проекты в партнерстве с пятью крупными компаниями России и мира.`,
+    siteLanguage: `ru`,
+    siteImage: `/banner.jpg`
   },
   plugins: [
     {
@@ -66,7 +71,7 @@ module.exports = {
       options: {
         name: `Павел Бородин`,
         short_name: `pavelborodin`,
-        description: `Разрабатываю клиентские и корпоративные решения для B2B рынка. Проектирую интерфейсы, работаю с командой разработки, рекламы и SMM. Запускал проекты в партнерстве с пятью крупными компаниями России и мира.`,
+        description: `Павел Бородин. Разрабатываю клиентские и корпоративные решения для B2B рынка. Проектирую интерфейсы, работаю с командой разработки, рекламы и SMM. Запускал проекты в партнерстве с пятью крупными компаниями России и мира.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
